@@ -1,0 +1,11 @@
+git+https://github.com/openai/whisper.git
+pytubefix
+
+langchain
+langchain_core
+faiss-cpu
+sentence-transformers
+llama-cpp-python
+datasets
+
+gradio
