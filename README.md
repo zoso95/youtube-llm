@@ -28,3 +28,9 @@ ollama run mistral
 python basic_implmentation.py 
 ```
 Now find the server at http://127.0.0.1:7860/
+
+## Demo 
+
+![Demo](images/top.png)
+![Chat Demo 1](images/chat1.png)
+![Chat Demo 2](images/chat2.png)
