@@ -1,21 +1,30 @@
-# Intro
+# 🎧 YouTube LLM Q&A (RAG App)
 
-A RAG LLM that summarizes a Youtube video and let's you run a Q&A based off the content. 
+A Retrieval-Augmented Generation (RAG) app that summarizes a YouTube video and lets you ask questions based on the transcript.  
+Powered by Whisper, FAISS, and Mistral (via Ollama), with both terminal and web UI options.
 
-## Installation Guide
+---
 
+## 🚀 Installation
 
+Clone the repo and install dependencies:
+
+```bash
 git clone https://github.com/zoso95/youtube-llm.git
 cd youtube-llm
-pip install -r requriments.txt
+pip install -r requirements.txt
 brew install ollama
+```
 
-### make sure ollama is running in the background
+### To run the terminal version 
+```bash
 ollama run mistral
-
-## local terminal version
 python basic_implmentation.py 
+```
 
-## gradio server version
-
-python app.py
+### To run the gradio server version 
+```bash
+ollama run mistral
+python basic_implmentation.py 
+```
+Now find the server at http://127.0.0.1:7860/
